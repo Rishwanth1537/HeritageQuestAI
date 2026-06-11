@@ -90,7 +90,7 @@ function TripPlanner() {
       setItinerary(null);
       setSegments([]);
 
-      const response = await axios.post("http://127.0.0.1:8000/plan-trip", {
+      const response = await axios.post("https://heritagequestai.onrender.com/plan-trip", {
         locations: validLocations,
       });
 

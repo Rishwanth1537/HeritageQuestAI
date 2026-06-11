@@ -45,7 +45,7 @@ function App() {
       setError("");
 
       const response = await axios.post(
-        "http://127.0.0.1:8000/upload",
+        "https://heritagequestai.onrender.com/upload",
         formData
       );
 
